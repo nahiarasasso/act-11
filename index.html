@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Caja de Música Interactiva - Spotify Cute</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body> <div class="floating-decoration heart" style="top: 10%; left: 10%;">💕</div>
+    <div class="floating-decoration star" style="top: 20%; right: 15%;">⭐</div>
+    <div class="floating-decoration note" style="bottom: 20%; left: 20%;">🎵</div>
+    <div class="floating-decoration heart" style="bottom: 15%; right: 10%;">💖</div>
+    <div class="floating-decoration star" style="top: 60%; left: 5%;">✨</div>
+    <div class="floating-decoration note" style="top: 40%; right: 5%;">🎶</div>
+
+    <div class="main-container">
+        <h1>🎶 Caja de Música Mágica 🎶</h1>
+        
+        <div id="musicBox">
+            <div class="music-display">
+                <div class="ballerina">🩰</div>
+                <div class="music-notes">♪ ♫ ♪ ♫</div>
+            </div>
+        </div>
+
+        <div class="volume-display">
+            Volumen
+            <div class="volume-bar">
+                <div class="volume-fill" id="volumeFill"></div>
+            </div>
+        </div>
+
+        <div id="controls">
+            <button id="playButton" title="Reproducir">▶️</button>
+            <button id="stopButton" title="Detener">⏹️</button>
+            <button id="volumeUp" title="Subir volumen">🔊</button>
+            <button id="volumeDown" title="Bajar volumen">🔉</button>
+        </div>
+
+        <div class="cute-message" id="message">¡Música hermosa! 🌸</div>
+    </div>
+
+
+  <!-- Bibliotecas necesarias -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/addons/p5.sound.min.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>
